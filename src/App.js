@@ -13,7 +13,7 @@ const App = () => {
     } = await youtube.get("search", {
       params: {
         part: "snippet",
-        key: "AIzaSyAdiholK6oJHuFx0mFtHwVQcm-vmofAZkk",
+        key: "",
         maxResults: 5,
         q: data
       }
